@@ -1,3 +1,7 @@
+# react-theme-app
+
+A application which will demonstrate how can we make use of React/redux to set or change our application theme at runtime by choosing primary/secondary color from a pallete.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

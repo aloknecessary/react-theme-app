@@ -1,26 +1,25 @@
-import { Dashboard } from "../components/Dashboard/index";
+import { Dashboard } from "../components/Dashboard";
 import { Sidebar } from "../components/Sidebar";
 import App from "../App";
 
 var routes = [
-  
   {
     path: "/dashboard",
     name: "Dashboard",
     component: Dashboard,
-    exact: false
+    exact: false,
   },
   {
     path: "/sidebar",
     name: "Sidebar",
     component: Sidebar,
-    exact: false
+    exact: false,
   },
   {
     path: "/",
     name: "Home",
     component: App,
-    exact: true
-  }
+    exact: true,
+  },
 ];
 export default routes;

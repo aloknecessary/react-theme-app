@@ -1,5 +1,6 @@
   import React, { Component } from "react";
-  import {Layout, Menu, Icon } from "antd";
+  import {Layout, Menu } from "antd";
+  import Icon from '@ant-design/icons';
   const { Header, Footer, Sider, Content } = Layout;
   const { SubMenu } = Menu;
   export class Dashboard extends Component {
